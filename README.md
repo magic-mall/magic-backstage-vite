@@ -1045,16 +1045,3 @@ export default defineComponent({
 ### 27. [环境变量配置支持](https://cn.vitejs.dev/guide/env-and-mode.html)
 
 根目录下有三个环境变量配置文件 `.env`，`.env.development` 和 `.env.production` 用来对项目进行配置。
-
-
-<br />
-<br />
-<br />
-
-## License
-
-Made with markthree
-
-Published under [MIT License](./LICENSE).
-
-<br />
