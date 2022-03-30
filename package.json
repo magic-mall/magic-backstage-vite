@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "element-plus": "^2.1.7",
+    "pinia-plugin-persistedstate": "^1.5.1",
     "qs": "^6.10.3",
     "sass": "^1.49.9",
     "vue": "^3.2.31"
