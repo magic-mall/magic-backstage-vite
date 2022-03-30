@@ -32,6 +32,8 @@ class HYRequest {
         this.instance.interceptors.response.use(
             (res) => {
                 console.log("所有实例的拦拦截器:响应拦截成功");
+                const data = res.data;
+                return data;
             },
             (error) => {
                 switch (error.response.status) {
