@@ -132,7 +132,7 @@ const submitForm = (formEl: FormInstance | undefined) => {
       }
     }
     .el-input {
-      /deep/input {
+     input {
         background: transparent;
         box-shadow: none;
         color: #fff;
