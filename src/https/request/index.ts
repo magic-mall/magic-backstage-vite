@@ -32,13 +32,6 @@ class HYRequest {
         this.instance.interceptors.response.use(
             (res) => {
                 console.log("所有实例的拦拦截器:响应拦截成功");
-                //将loading移除
-                const data = res.data as any;
-                if (data.returnCode === "-1001") {
-                    console.log("请求失败,错误信息");
-                } else {
-                    return data;
-                }
             },
             (error) => {
                 switch (error.response.status) {
