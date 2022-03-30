@@ -47,7 +47,6 @@ declare global {
   const getCurrentScope: typeof import('vue')['getCurrentScope']
   const h: typeof import('vue')['h']
   const ignorableWatch: typeof import('@vueuse/core')['ignorableWatch']
-  const index: typeof import('/Midway/mall/mall-tov/src/stores/index')['default']
   const inject: typeof import('vue')['inject']
   const isDefined: typeof import('@vueuse/core')['isDefined']
   const isReadonly: typeof import('vue')['isReadonly']

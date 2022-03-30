@@ -111,6 +111,7 @@
         "mockjs",
         "nprogress",
         "pinia",
+        "pinia-plugin-persistedstate",
         "qs",
         "vite-plugin-mock/es/createProdMockServer",
         "vue",
